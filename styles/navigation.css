@@ -22,4 +22,15 @@
   line-height: 16px;
   letter-spacing: 1.0909091234207153px;
   text-align: left;
+
+  transition: 0.4s;
+}
+
+.navigation__menu_link:hover {
+  color: #00a4e5;
+  transition: 0.4s;
+}
+
+nav {
+  border-bottom: 1px solid #e6e6e6;
 }
