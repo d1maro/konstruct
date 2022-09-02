@@ -1,0 +1,35 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.18750004470348358px;
+  text-align: left;
+  color: #48555b;
+}
+
+h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 2.3062498569488525px;
+  color: #48555b;
+
+  text-transform: uppercase;
+}
+
+a {
+  color: #48555b;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  box-sizing: content-box;
+}
