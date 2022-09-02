@@ -26,6 +26,8 @@ h2 {
 a {
   color: #48555b;
   text-decoration: none;
+
+  text-transform: uppercase;
 }
 
 .container {

@@ -1,0 +1,10 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
