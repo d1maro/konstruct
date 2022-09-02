@@ -1,10 +1,25 @@
 .navigation {
   display: flex;
   justify-content: space-between;
+
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .navigation__menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 45px 0;
+
+  min-width: 411px;
+}
+
+.navigation__menu_link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 1.0909091234207153px;
+  text-align: left;
 }
