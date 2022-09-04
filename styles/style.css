@@ -35,3 +35,32 @@ a {
   margin: 0 auto;
   box-sizing: content-box;
 }
+
+.button {
+  display: block;
+
+  max-width: 150px;
+  max-height: 40px;
+
+  padding: 11px 29px;
+  border: none;
+
+  background-color: #00A4E5;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+
+  transition: 0.4s;
+}
+
+.button:hover {
+  opacity: 0.9;
+
+  transition: 0.4s;
+}
