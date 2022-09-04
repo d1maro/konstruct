@@ -11,9 +11,11 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/navigation.css">
+    <link rel="stylesheet" href="./styles/story.css">
     <title>Konstruct Web Page</title>
 </head>
 <body>
+    
     <header> 
         <div class="header__background">
             <div class="header__text">
@@ -24,24 +26,52 @@
             </div>
         </div>
     </header>
-    <nav>
-        <div class="container">
-            <div class="navigation">
-                <img src="./images/nav/logo-nav.svg" alt="Logo">
-                <ul class="navigation__menu">
-                    <li><a class="navigation__menu_link" href="#">Home</a></li>
-                    <li><a class="navigation__menu_link" href="#">About</a></li>
-                    <li><a class="navigation__menu_link" href="#">Services</a></li>
-                    <li><a class="navigation__menu_link" href="#">Work</a></li>
-                    <li><a class="navigation__menu_link" href="#">Contact</a></li>
-                </ul>
+    
+    <main>
+        <nav>
+            <div class="container">
+                <div class="navigation">
+                    <img src="./images/nav/logo-nav.svg" alt="Logo">
+                    <ul class="navigation__menu">
+                        <li><a class="navigation__menu_link" href="#">Home</a></li>
+                        <li><a class="navigation__menu_link" href="#">About</a></li>
+                        <li><a class="navigation__menu_link" href="#">Services</a></li>
+                        <li><a class="navigation__menu_link" href="#">Work</a></li>
+                        <li><a class="navigation__menu_link" href="#">Contact</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
-    <section class="story">
-        <div class="container">
-            <!-- Test Commit -->
-        </div>
-    </section>
+        </nav>
+        
+        <section class="story">
+            <div class="container">
+                <div class="story__head">
+                    <h2>Our Story</h2>
+                </div>
+                <div class="story__main">
+                    <div class="story__description">
+                        <h3 class="description__head">Founded in 2011 by John Mathew Smith, <span>Konstruct</span> has become the number one construction management</h3>
+                        <p class="description__text">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.
+                        </p>
+                    </div>
+                    <div class="story__picture">
+                        <img src="./images/story/story-plan.jpg" width="140" height="224" alt="">
+                        <h4 class="picture__description">We<br>plan</h4>
+                    </div>
+                    <div class="story__picture">
+                        <img src="./images/story/story-manage.jpg" width="140" height="224" alt="">
+                        <h4 class="picture__description">We<br>manage</h4>
+                    </div>
+                    <div class="story__picture">
+                        <img src="./images/story/story-build.jpg" width="140" height="224" alt="">
+                        <h4 class="picture__description">We<br>build</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
 </body>
 </html>
