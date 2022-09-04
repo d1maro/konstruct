@@ -15,7 +15,7 @@
   min-width: 411px;
 }
 
-.navigation__menu_link {
+.navigation__link {
   font-family: "Open Sans", sans-serif;
   font-size: 12px;
   font-weight: 700;
@@ -26,7 +26,7 @@
   transition: 0.4s;
 }
 
-.navigation__menu_link:hover {
+.navigation__link:hover {
   color: #00a4e5;
   transition: 0.4s;
 }
