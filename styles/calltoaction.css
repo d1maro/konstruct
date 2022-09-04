@@ -1,0 +1,30 @@
+.calltoaction {
+    
+}
+
+.calltoaction__background {
+    position: relative;
+
+    padding-top: 120px;
+    padding-bottom: 231px;
+
+    background-image: url("../images/calltoaction/background-calltoaction.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.calltoaction__title {
+    margin-bottom: 35px;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.15000000596046448px;
+    text-align: center;
+}
+
+.calltoaction__background .button {
+    margin: 0 auto;
+}
