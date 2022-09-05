@@ -20,12 +20,12 @@
 <body>
     
     <header> 
-        <div class="header__background">
+        <div id="home" class="header__background">
             <div class="header__text">
                 <img src="./images/head/logo-head.svg" alt="Logo">
                 <h1 class="header__title">Partner With Konstruct</h1>
                 <p class="header__description">An award-winning construction management firm</p>
-                <a href="#home" class="header__hint">Scroll Down</a>
+                <a href="#nav" class="header__hint">Scroll Down</a>
             </div>
         </div>
     </header>
@@ -33,20 +33,20 @@
     <main>
         <nav>
             <div class="container">
-                <div class="navigation">
+                <div id="nav" class="navigation">
                     <img src="./images/nav/logo-nav.svg" alt="Logo">
                     <ul class="navigation__menu">
-                        <li><a class="navigation__link" href="#">Home</a></li>
-                        <li><a class="navigation__link" href="#">About</a></li>
-                        <li><a class="navigation__link" href="#">Services</a></li>
-                        <li><a class="navigation__link" href="#">Work</a></li>
-                        <li><a class="navigation__link" href="#">Contact</a></li>
+                        <li><a class="navigation__link" href="#home">Home</a></li>
+                        <li><a class="navigation__link" href="#about">About</a></li>
+                        <li><a class="navigation__link" href="#services">Services</a></li>
+                        <li><a class="navigation__link" href="#work">Work</a></li>
+                        <li><a class="navigation__link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         
-        <section class="story">
+        <section id="about" class="story">
             <div class="container">
                 <div class="story__head">
                     <h2>Our Story</h2>
@@ -74,7 +74,7 @@
             </div>
         </section>
         
-        <section class="capabilities">
+        <section id="services" class="capabilities">
             <div class="container">
                 <div class="capabilities__head">
                     <div class="capabilities__title">
@@ -85,7 +85,7 @@
                     </p>
                     <a href="#" class="button">All&nbsp;services</a>
                 </div>
-                <div class="capabilities__main">
+                <div id="work" class="capabilities__main">
                     <div class="capabilities__card">
                         <img src="./images/capabilities/capabilities-project.svg" alt="">
                         <h3 class="card__title">Project and construction management</h3>
@@ -111,19 +111,20 @@
             </div>
         </section>
 
-        <section class="calltoaction">
+        <section id="contact" class="calltoaction">
                 <div class="calltoaction__background">
                     <h3 class="calltoaction__title">Want to build<br>something amazing?</h3>
                     <a class="button" href="#">Get&nbsp;in&nbsp;Touch</a>
                 </div>
         </section>
+    </main>
 
         <footer class="footer">
             <div class="footer__main">
-                <h3 class="footer__title">Newsletter Signup</h3>
-                <form action="">
+                <form>
+                    <label for="signup" class="footer__title">Newsletter Signup</label>
                     <input id="signup" type="email" placeholder="test@youremail.com">
-                    <button class="button button__footer" type="submit" for="signup">Signup</button>
+                    <button class="button button__footer" type="submit" >Signup</button>
                 </form>
             </div>
             <div class="footer__small">
@@ -131,6 +132,5 @@
             </div>
         </footer>
 
-    </main>
 </body>
 </html>
