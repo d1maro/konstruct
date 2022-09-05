@@ -38,14 +38,15 @@ a {
 
 .button {
   display: block;
+  box-sizing: border-box;
 
-  max-width: 150px;
-  max-height: 40px;
+  width: 150px;
+  height: 40px;
 
   padding: 11px 29px;
   border: none;
 
-  background-color: #00A4E5;
+  background-color: #00a4e5;
 
   font-family: "Open Sans", sans-serif;
   font-size: 13px;
